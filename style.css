@@ -149,7 +149,7 @@ nav a:hover::after, nav a:focus::after {
     gap: 1.2rem;
 }
 .deliverables a {
-    background: linear-gradient(90deg, #3498db 60%, #27ae60 100%);
+    background: linear-gradient(90deg, #121212 60%, #121212 100%);
     color: #fff;
     padding: 0.5rem 1.2rem;
     border-radius: 6px;
@@ -159,7 +159,7 @@ nav a:hover::after, nav a:focus::after {
     box-shadow: 0 2px 8px rgba(52,152,219,0.08);
 }
 .deliverables a:hover, .deliverables a:focus {
-    background: linear-gradient(90deg, #27ae60 60%, #3498db 100%);
+    background: linear-gradient(90deg, #b76aff 60%, #b76aff 100%);
     transform: translateY(-2px) scale(1.07);
     box-shadow: 0 4px 16px rgba(39,174,96,0.14);
 }
@@ -183,7 +183,7 @@ nav a:hover::after, nav a:focus::after {
 .screenshots img:hover {
     transform: scale(1.08) rotate(-2deg);
     box-shadow: 0 4px 16px rgba(39,174,96,0.13);
-    border-color: #27ae60;
+    border-color: #b76aff;
 }
 form {
     display: flex;
@@ -201,12 +201,12 @@ input, textarea {
     transition: border 0.2s, box-shadow 0.2s;
 }
 input:focus, textarea:focus {
-    border: 1.5px solid #3498db;
+    border: 1.5px solid #b76aff;
     box-shadow: 0 2px 8px rgba(52,152,219,0.09);
     outline: none;
 }
 button[type="submit"] {
-    background: linear-gradient(90deg, #3498db 60%, #27ae60 100%);
+    background: linear-gradient(90deg, #b76aff 60%, #b76aff 100%);
     color: #fff;
     border: none;
     border-radius: 5px;
@@ -218,7 +218,7 @@ button[type="submit"] {
     box-shadow: 0 2px 8px rgba(52,152,219,0.10);
 }
 button[type="submit"]:hover, button[type="submit"]:focus {
-    background: linear-gradient(90deg, #27ae60 60%, #3498db 100%);
+    background: linear-gradient(90deg, #b76aff 60%, #b76aff 100%);
     transform: translateY(-2px) scale(1.07);
     box-shadow: 0 4px 16px rgba(39,174,96,0.14);
 }
@@ -227,29 +227,29 @@ button[type="submit"]:hover, button[type="submit"]:focus {
     margin-top: 0.5rem;
 }
 .contact-info a {
-    color: #3498db;
+    color: #b76aff;
     text-decoration: none;
     transition: color 0.2s;
 }
 .contact-info a:hover, .contact-info a:focus {
-    color: #27ae60;
+    color: #b76aff;
 }
 footer {
     text-align: center;
     padding: 1.2rem 0 1.5rem 0;
     background: linear-gradient(90deg, #e3f0ff 60%, #f1f1f1 100%);
-    color: #3498db;
+    color: #b76aff;
     position: relative;
     border-top-left-radius: 32px;
     border-top-right-radius: 32px;
-    box-shadow: 0 -2px 16px rgba(52,152,219,0.08);
+    box-shadow: 0 -2px 16px rgba(197, 144, 255, 0.16);
     margin-top: 3rem;
 }
 #back-to-top {
     position: absolute;
     right: 2rem;
     bottom: 1.5rem;
-    background: linear-gradient(135deg, #3498db 60%, #27ae60 100%);
+    background: linear-gradient(135deg, #b76aff 60%, #b76aff 100%);
     color: #fff;
     border: none;
     border-radius: 50%;
@@ -257,16 +257,16 @@ footer {
     height: 42px;
     font-size: 1.3rem;
     cursor: pointer;
-    box-shadow: 0 2px 8px rgba(52,152,219,0.16);
+    box-shadow: 0 2px 8px rgba(197, 144, 255, 0.16);
     transition: background 0.2s, transform 0.2s, box-shadow 0.2s;
     outline: none;
     z-index: 2;
     animation: floaty 2.5s infinite ease-in-out;
 }
 #back-to-top:hover, #back-to-top:focus {
-    background: linear-gradient(135deg, #27ae60 60%, #3498db 100%);
+    background: linear-gradient(135deg, #121212 60%, #121212 100%);
     transform: scale(1.15) translateY(-4px);
-    box-shadow: 0 4px 16px rgba(39,174,96,0.16);
+    box-shadow: 0 4px 16px rgba(197, 144, 255, 0.16);
 }
 @keyframes floaty {
     0%, 100% { transform: translateY(0); }
