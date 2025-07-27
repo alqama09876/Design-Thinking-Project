@@ -1,4 +1,4 @@
-# Touseef Ahmed’s Portfolio
+# Alqama Qureshi’s Portfolio
 
 A minimalist, professional portfolio website to showcase all deliverables for the MedQueue app project and other projects.
 
